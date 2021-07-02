@@ -17,6 +17,8 @@
         <java.version>11</java.version>
     </properties>
     <dependencies>
+
+        <!-- Used for All JPA config , Dependency for  Hibernate .-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -29,6 +31,8 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
+
+        <!-- Used for building WEB Application , RESTful API using Spring MVC , and uses Tomcat as the Default in it.-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
